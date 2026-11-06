@@ -1,0 +1,22 @@
+# Build outputs
+*.exe
+*.pdb
+*.obj
+*.dll
+!System.*.dll
+
+# Runtime / user data (do not publish personal shortcuts)
+shortcuts.json
+shortcuts.json.bak
+unsaved.json
+unsaved.json.bak
+errors.log
+history/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.user
+.vs/
+.idea/
+*.suo
